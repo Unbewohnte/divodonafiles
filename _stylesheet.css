@@ -1,0 +1,87 @@
+/* цена */
+.pitempricevalue {
+   font-size: 20px; 
+}
+
+
+/* кнопки */
+.recoloredBtn {
+    background-color: #A2CCEC;
+    border: 1px solid #A2CCEC;
+    color: #ffffff;
+    border-radius: 30px;
+}
+
+/* кнопки при навдении */
+.recoloredBtn:hover {
+    background-color: #97BEDB;
+    border: 1px solid #97BEDB;
+    color: #ffffff;
+    border-radius: 30px;
+}
+
+/* активные даты */
+.ui-state-active, .ui-widget-content .ui-state-active {
+    border: 1px solid #A2CCEC;
+    background: #A2CCEC;
+    color: #ffffff;
+}
+
+/* дата выезда */
+input#date_of_departure {
+    border-radius: 20px;
+    border: 1px solid #97BEDB;
+    padding: 10px 20px 12px 20px;
+    margin-top: 10px;
+}
+
+/* дата заезда */
+input#check-in_date {
+    border-radius: 20px;
+    border: 1px solid #97BEDB;
+    padding: 10px 20px 12px 20px;
+    margin-top: 10px;
+}
+
+/* заголовок и название номеров */
+h3 {
+    font-family: 'DivoDona', sans-serif;
+    font-size: 20px;
+    color: #333333;
+}
+
+/* основной текст */
+body {
+ font-family: 'DivoDona', sans-serif;
+ font-size: 16px;
+ color: #333333;
+}
+
+/* ссылка др. варианты */
+a {
+    color: #89acc6;
+}
+
+/* поле для ввода */
+input {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 16px;
+    border: 1px solid #A2CCEC;
+    border-radius: 30px;
+    padding: 12px 10px;
+}
+
+/* число кошек */
+select {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 16px;
+    border-radius: 30px;
+    padding: 10px 20px 10px 20px;
+    border: 1px solid #A2CCEC;
+}
+
+/* место для пожеланий */
+textarea#notes {
+    border: 1px solid #A2CCEC;
+    border-radius: 30px;
+}
