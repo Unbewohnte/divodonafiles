@@ -49,7 +49,7 @@ window.onload = function() {
 		for (var i = 0; i < links.length; i++) {
 			if (links[i].textContent.includes('Другие варианты')) {
 				links[i].style.color = '#000000'; // Черный цвет
-				links[i].style.fontSize = '150%'; // Увеличение
+				links[i].style.fontSize = '125%'; // Увеличение
 				links[i].style.fontWeight = 'bold'; // Жирный шрифт для улучшения читаемости
 				break;
 			}
