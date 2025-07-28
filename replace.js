@@ -53,6 +53,13 @@ window.onload = function() {
 				links[i].style.fontWeight = 'bold'; // Жирный шрифт для улучшения читаемости
 				break;
 			}
+
+			if (links[i].textContent.includes('Предыдущие варианты')) {
+				links[i].style.color = '#000000'; // Черный цвет
+				links[i].style.fontSize = '125%'; // Увеличение
+				links[i].style.fontWeight = 'bold'; // Жирный шрифт для улучшения читаемости
+				break;
+			}
 		}
 	} catch (e) {
 		console.error('Error modifying "Другие варианты" link:', e);
